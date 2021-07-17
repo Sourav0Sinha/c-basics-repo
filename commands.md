@@ -6,7 +6,7 @@
 	
 	using namespace std;
 	
-	void sayHello(string name);
+	int sayHello(string name);
 	int main()
 	{
 		int a = 0;
@@ -26,7 +26,8 @@
 		return 0;
 	
 	}
-	void sayHello(string name){
+	int sayHello(string name){
 		cout<< "hello user " << name << endl;
+		return 1;
 	}
 ```
